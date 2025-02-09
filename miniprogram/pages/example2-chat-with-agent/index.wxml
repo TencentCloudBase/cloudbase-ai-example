@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="message-list">
+    <view wx:for="{{messages}}" wx:key="*this" class="{{item.type === 'user' ? 'user-message' : 'bot-message'}}">
+      {{item.content}}
+    </view>
+    <view wx:if="{{pendingOutput}}" class="bot-message">
+      {{pendingOutput}}
+    </view>
+  </view>
+  <view class="input-block">
+    <t-textarea label="输入文字" placeholder="请输入文字" disableDefaultPadding="{{true}}" autosize="{{autosize}}" value="{{ inputValue }}" bind:change="handleInput" />
+    <t-button bind:tap="callAgent" icon="arrow-up" theme="primary" size="large" block>调用大模型</t-button>
+  </view>
+</view>

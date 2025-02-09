@@ -1,0 +1,41 @@
+# 依赖相关
+/node_modules
+/.npm
+/.yarn
+/yarn.lock
+/package-lock.json
+/pnpm-lock.yaml
+
+# 开发工具生成的文件和目录
+/.idea
+/.vscode
+.DS_Store
+Thumbs.db
+
+# 小程序构建相关
+/miniprogram_npm
+/miniprogram/miniprogram_npm
+/miniprogram/node_modules
+/dist
+/build
+/.temp
+/.cache
+/.rpt2_cache
+
+# 日志文件
+*.log
+
+# 环境配置文件（如果包含敏感信息）
+.env
+.env.*
+
+# 测试报告
+/test-results
+/coverage
+
+# 本地配置文件
+/config.local.js
+/config.local.json
+
+# 小程序开发者工具自动生成的文件
+/project.config.json.local

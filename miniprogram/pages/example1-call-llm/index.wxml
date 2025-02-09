@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <t-textarea label="输入文字" placeholder="请输入文字" disableDefaultPadding="{{true}}" autosize="{{autosize}}" value="{{ userInput }}" bind:change="handleInput" />
+  <t-button bind:tap="callAI" icon="arrow-up" theme="primary" size="large" block>调用大模型</t-button>
+  <t-textarea label="大模型输出结果" disableDefaultPadding="{{true}}" autosize="{{autosize}}" value="{{ outputValue }}" maxlength="-1" />
+</view>

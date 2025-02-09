@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="example">
+    <view class="title">示例1：调用大模型文本生成</view>
+    <t-button theme="primary" icon="bookmark" content="查看示例" size="large" block bind:tap="gotoPage" data-url="/pages/example1-call-llm/index"></t-button>
+  </view>
+
+  <view class="example">
+    <view class="title">示例2：调用 Agent（智能体）实现对话</view>
+    <t-button theme="primary" icon="bookmark" content="查看示例" size="large" block bind:tap="gotoPage" data-url="/pages/example2-chat-with-agent/index"></t-button>
+  </view>
+</view>

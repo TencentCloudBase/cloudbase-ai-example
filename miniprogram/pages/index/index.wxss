@@ -1,0 +1,13 @@
+.container {
+  padding: 20px;
+}
+
+.example {
+  margin-bottom: 40px;
+}
+
+.title {
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
