@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+		"agent-ui": "/components/agent-ui/dist/Agent-UI/index"
+	},
+	"componentPlaceholder": {
+		"agent-ui": "block"
+	}
+}

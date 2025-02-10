@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+	<view wx:if="{{ !!bot.botId }}">
+		<agent-ui bot="{{ bot }}"></agent-ui>
+	</view>
+</view>

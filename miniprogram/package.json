@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@cloudbase-module/block": "file:components/agent-ui",
     "@cloudbase/wx-cloud-client-sdk": "^1.2.1",
     "tdesign-miniprogram": "^1.8.5"
   }

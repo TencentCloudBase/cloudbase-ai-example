@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/example1-call-llm/index",
-    "pages/example2-chat-with-agent/index"
+    "pages/example2-chat-with-agent/index",
+    "pages/example3-using-chat-component/index"
   ],
   "window": {
     "backgroundColor": "#fff",
@@ -11,5 +12,12 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "lazyCodeLoading": "requiredComponents",
+  "subpackages": [
+    {
+      "root": "components/agent-ui",
+      "name": "agent-ui",
+      "pages": []
+    }
+  ]
 }

@@ -16,6 +16,7 @@ Thumbs.db
 /miniprogram_npm
 /miniprogram/miniprogram_npm
 /miniprogram/node_modules
+/miniprogram/package-lock.json
 /dist
 /build
 /.temp
