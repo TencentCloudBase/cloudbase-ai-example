@@ -4,7 +4,8 @@
 
 .message-list {
   flex: 1;
-  overflow-y: auto;
+	overflow-y: auto;
+	padding-bottom: 200px;
 }
 
 .user-message {
@@ -37,4 +38,8 @@
   border: 1px solid #eeeeee;
   display: block;
   background-color: #fff;
+}
+
+.text {
+	white-space: pre-wrap;
 }

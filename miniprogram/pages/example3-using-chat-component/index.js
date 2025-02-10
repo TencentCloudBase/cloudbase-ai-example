@@ -1,7 +1,7 @@
 Page({
 	data: {
 		bot: {
-			botId: "" // 填入Agent ID，可前往 https://tcb.cloud.tencent.com/dev?#/ai?tab=agent 创建 Agent
+			botId: "" // 填入Agent ID，如 "bot-9a2165dd"，可前往 https://tcb.cloud.tencent.com/dev?#/ai?tab=agent 创建 Agent
 		}
 	},
 	async onLoad() {
