@@ -9,13 +9,6 @@ App({
 				env: envID,
 				traceUser: true,
 			});
-
-			require.async('./components/agent-ui/index.js').then(module => {
-				module.clientSDK.init({
-					envID: envID,
-					appConfig: {}
-				})
-			})
 		}
 
 		this.globalData = {};

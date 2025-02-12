@@ -14,7 +14,9 @@
 
 ![](https://cloudcache.tencent-cloud.com/qcloud/ui/static/static_source_business/af1b8049-679b-4029-b09f-29680926380c.jpg)
 
-### 2. 在 `miniprogram/app.js` 中配置环境 ID
+### 2. 配置环境 ID
+
+在 `miniprogram/app.js` 中
 
 ```js
 App({
@@ -22,6 +24,15 @@ App({
     const envID = "<此处填入云开发环境ID>";
     // ……
   },
+});
+```
+
+在 `components/agent-ui/index.js` 中，启用 init，并配置 envID
+
+```js
+sdk.init({
+  envID: "<此处填入云开发环境ID>",
+  appConfig: {},
 });
 ```
 
