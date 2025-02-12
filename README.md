@@ -3,7 +3,8 @@
 ![](https://cloudcache.tencent-cloud.com/qcloud/ui/static/static_source_business/fc336e5e-76b2-4f6f-920a-2998baed2478.png)
 
 ## 快速开始
-### 1. 开通云开发，获取环境ID
+
+### 1. 开通云开发，获取环境 ID
 
 打开微信开发工具，点击上方「云开发」按钮，开通云开发
 
@@ -13,16 +14,15 @@
 
 ![](https://cloudcache.tencent-cloud.com/qcloud/ui/static/static_source_business/af1b8049-679b-4029-b09f-29680926380c.jpg)
 
-### 2. 在 `miniprogram/app.js` 中配置环境ID
+### 2. 在 `miniprogram/app.js` 中配置环境 ID
 
 ```js
 App({
-	onLaunch: function () {
-		const envID = "<此处填入云开发环境ID>"
-		// ……
-	}
+  onLaunch: function () {
+    const envID = "<此处填入云开发环境ID>";
+    // ……
+  },
 });
-
 ```
 
 ### 3. 创建 Agent（智能体），获得 Agent ID
@@ -33,8 +33,7 @@ App({
 
 点击页面中上方的「复制 ID」，我们会获得一个 `bot-id`，即 Agent ID 唯一标识，在下面的代码中会用到。
 
-
-### 4. 将 Agent ID 填入示例2和示例3
+### 4. 将 Agent ID 填入示例 2 和示例 3
 
 在以下两个文件中填入第 3 步里获取到的 Agent ID：
 
@@ -47,4 +46,4 @@ App({
 
 如您有任何模板使用问题，欢迎提交 Issue，或者加入用户交流群
 
-![](https://cloudcache.tencent-cloud.com/qcloud/ui/static/static_source_business/c6420fe5-ac41-4178-808f-de846c63250c.png)
+![](https://cloudcache.tencent-cloud.com/qcloud/ui/static/static_source_business/c14f5766-59cf-4d98-acda-0b83eb501da8.png)
