@@ -34,9 +34,11 @@
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true
+    "minifyWXSS": true,
+    "ignoreDevUnusedFiles": true,
+    "ignoreUploadUnusedFiles": true
   },
-  "appid": "wxaa1c8eb1ac19ceea",
+  "appid": "wxcf5102ada68a7ac9",
   "projectname": "quickstart-wx-cloud",
   "libVersion": "latest",
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
