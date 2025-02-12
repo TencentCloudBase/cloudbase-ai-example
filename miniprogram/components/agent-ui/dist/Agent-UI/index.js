@@ -1,3 +1,4 @@
+import '../../index'
 import { getWedaAPI, createComponent, concatClassList, px2rpx } from '@cloudbase/weda-client'
 import lifeCycle from './lowcode/lifecycle'
 import stateFn from './lowcode/state'
