@@ -19,5 +19,8 @@
       "name": "agent-ui",
       "pages": []
     }
-  ]
+  ],
+  "networkTimeout": {
+    "request": 600000
+  }
 }
